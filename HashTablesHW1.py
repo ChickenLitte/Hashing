@@ -6,7 +6,7 @@ def HashThis(x,mod = 100):
     for char in x:
         combinedVal += ord(char)
     print(combinedVal)
-    return combinedVal % 100
+    return combinedVal % mod
 
 
 def main():
